@@ -5,7 +5,7 @@ try {
 
 
 }catch (PDOException $hata){
-    echo "bağlantı hatasıı" . $hata->getMessage();
+    echo "bağlantı hatası" . $hata->getMessage();
     die;
 }
 
